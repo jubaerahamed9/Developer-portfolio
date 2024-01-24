@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header and navigation styles */
+.text-primary {
+    color: #FD6E0A;
+}
+
+.button-primary {
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+/* banner styles */
+.banner {
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.banner-subtitle {
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner-description {
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* about section styles */
+.about {
+    margin-top: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px 150px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.info-description {
+    color: var(--Dark-02, #474747);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
