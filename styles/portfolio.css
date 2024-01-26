@@ -150,8 +150,6 @@ section {
 }
 
 .skill {
-    width: 267px;
-    height: 377px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -171,6 +169,7 @@ section {
     color: var(--Dark-03, #757575);
     font-size: 16px;
     font-weight: 400;
+    padding-bottom: 30px;
 }
 
 .resume-contain {
